@@ -166,6 +166,8 @@ const Ecommerce = (props) => {
     >
       <div>
         <h1>E-commerce Store</h1>
+        <label>Category</label>
+        <br/>
         <select
           value={category}
           onChange={handleChangecategory}
@@ -183,6 +185,8 @@ const Ecommerce = (props) => {
         <br />
         {formerrors && <span>{formerrors.category}</span>}
         <br />
+        <label>Product</label>
+        <br/>
         <select
           value={product}
           onChange={handleChangeProduct}
